@@ -21,7 +21,7 @@ main{
 }
 .card{
     background-color:   hsl(0, 0%, 12%);
-    padding: 10px 40px;
+    padding: 10px 50px;
     border-radius: 20px;
     box-sizing: border-box;
     
@@ -62,20 +62,21 @@ main{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
-.links li{
-    text-align: center;
-    max-width: 100vw;
-    padding: 15px;
-    background-color: hsl(0, 0%, 20%);
-    margin: 15px 0px;
-    border-radius: 10px;
-    font-weight: 700;
-    cursor: pointer;
-   
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    
 }
-
+.links a{
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
 .act:active{
     background-color:hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
